@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maid.Blazor.Generators.AutoFillProperties", "Source\Maid.Blazor.Generators.AutoFillProperties\Maid.Blazor.Generators.AutoFillProperties.csproj", "{7F6BF62D-5CFF-4DE6-BD43-385AF1605520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maid.Blazor.Core", "Source\Maid.Blazor.Core\Maid.Blazor.Core.csproj", "{178D38E8-F5BB-4252-B00B-FE220C609596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F6BF62D-5CFF-4DE6-BD43-385AF1605520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6BF62D-5CFF-4DE6-BD43-385AF1605520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6BF62D-5CFF-4DE6-BD43-385AF1605520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6BF62D-5CFF-4DE6-BD43-385AF1605520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178D38E8-F5BB-4252-B00B-FE220C609596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178D38E8-F5BB-4252-B00B-FE220C609596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178D38E8-F5BB-4252-B00B-FE220C609596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178D38E8-F5BB-4252-B00B-FE220C609596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D47B159F-A77F-4A6B-820A-BD3774A9A7EC}
+	EndGlobalSection
+EndGlobal
