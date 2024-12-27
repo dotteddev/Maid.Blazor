@@ -1,4 +1,6 @@
 using Microsoft.JSInterop;
+using Maid.Blazor.Core;
+using Maid.Blazor;
 
 namespace Maid.Blazor.Core;
 // This class provides an example of how JavaScript functionality can be wrapped

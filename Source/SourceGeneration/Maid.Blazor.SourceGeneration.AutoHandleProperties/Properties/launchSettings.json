@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Maid.Blazor.SourceGeneration.AutoHandleProperties": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\..\\Maid.Blazor.Components\\Maid.Blazor.Components.csproj"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿@page "/"
+@inherits MaidComponent
+
+<PageTitle>Home</PageTitle>
+
+<h1>Components</h1>
+
+<Box>@BoxTest1</Box>
+<Box>@inputText1</Box>
+<input type=text @bind=inputText1 @bind:event=oninput/>
+<button @onclick="ChangeText1">Change text</button>
+
+@code{
+	string BoxTest1 = "test";
+
+	string inputText1 = string.Empty;
+	Task ChangeText1()
+	{
+		BoxTest1 = inputText1;
+		return Task.CompletedTask;
+	}
+}

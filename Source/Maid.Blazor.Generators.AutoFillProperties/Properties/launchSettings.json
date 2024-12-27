@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Maid.Blazor.Generators.AutoFillProperties": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "DebugRoslynComponent"
+    }
+  }
+}
